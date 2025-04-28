@@ -1,0 +1,19 @@
+{
+    "name": "link-shortener-redis",
+    "version": "1.0.0",
+    "description": "Encurtador de links usando Node.js, Express e Redis",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "node src/app.js",
+      "dev": "nodemon src/app.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "ioredis": "^5.3.2",
+      "nanoid": "^5.0.2"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.2"
+    }
+  }
+  
